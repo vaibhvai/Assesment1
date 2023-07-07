@@ -1,0 +1,58 @@
+body{
+  background-image: url(istockphoto-1180453397-612x612.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin:9% auto;
+    background: rgb(124,150,167);
+
+
+}
+table.list{
+    width: 100%;
+    text-align: center;
+}
+td{
+    text-align: left;
+    border: 1px solid slateblue;
+    padding: 8px 15px;
+}
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+input[type="submit"],input[type="reset"]{
+   background: salmon;
+   padding:6px 12px;
+    margin: 15px 0 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: palevioletred;
+
+}
+input[type="reset"]:hover{
+    background: palevioletred;
+
+} 
+button{
+    background: salmon;
+    padding:6px 12px;
+     margin: 15px 0 10px;
+     border: none;
+     border-radius: 30px;
+     font-size: 1rem;
+     cursor: pointer;
+}
+button:hover{
+    background: palevioletred;
+}
